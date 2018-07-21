@@ -7,7 +7,7 @@ This program goes through every song you've ever scrobbled to last.fm and checks
 
 # How To Run
 1. Install requirements with `pip install -r requirements.txt`
-1. Run `main.py <last.fm username> <last.fm password> <spotify username>`
+1. Run `python main.py <last.fm username> <last.fm password> <spotify username>`
 1. You will need to finish authentication with Spotify through your web browser. Click the auth link when prompted by the program.
 1. Wait for a while. Last.fm takes forever to retrieve your entire listening history, especially if you have a lot of scrobbles.
 1. Once your listening history is retrieved, you will see album names begin to be printed out. Each one is an album from your listening history that was found on Spotify.
