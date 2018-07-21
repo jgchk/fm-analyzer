@@ -48,6 +48,7 @@ def print_stats(username):
     print(f'\talbum streams: {avg_album_streams}')
     print(f'\talbum length: {avg_album_length} tracks')
 
+    # Sourced from https://www.digitalmusicnews.com/2018/01/16/streaming-music-services-pay-2018/
     payouts = {
         'groove music': 0.02730,
         'napster': 0.01682,
